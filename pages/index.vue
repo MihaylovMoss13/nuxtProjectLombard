@@ -257,11 +257,6 @@ export default {
   mounted() {
     console.log('Current Swiper instance object', this.swiper);
     this.swiper.slideTo(3, 1000, false);
-    axios
-      .get(
-        "https://goldlombard.ru/template/lombard/scripts/service.php?action=getStatus"
-      )
-      .then((response) => (this.selected = response.data));
   },
 };
 </script>
