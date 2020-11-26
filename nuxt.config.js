@@ -29,7 +29,20 @@ export default {
     buildModules: [],
 
     // Modules (https://go.nuxtjs.dev/config-modules)
-    modules: [],
+    modules: [
+        // Doc: https://axios.nuxtjs.org/usage
+        '@nuxtjs/axios', [
+            '@nuxtjs/yandex-metrika',
+            {
+                id: '69772645',
+                webvisor: true,
+                clickmap: true,
+                useCDN: false,
+                trackLinks: true,
+                accurateTrackBounce: true,
+            },
+        ],
+    ],
 
     // Build Configuration (https://go.nuxtjs.dev/config-build)
     build: {}
