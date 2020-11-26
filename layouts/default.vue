@@ -5,8 +5,6 @@
 </template>
 
 <style>
-@import url("https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css");
-
 html {
   font-size: 16px;
   word-spacing: 1px;
