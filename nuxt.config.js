@@ -29,7 +29,7 @@ export default {
     buildModules: [],
 
     // Modules (https://go.nuxtjs.dev/config-modules)
-    modules: ['@nuxtjs/yandex-metrika'].
+    modules: ['@nuxtjs/yandex-metrika'],
     yandexMetrika: {
         id: 69772645,
         webvisor: true,
